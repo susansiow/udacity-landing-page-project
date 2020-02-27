@@ -64,19 +64,11 @@ blockquote .author {
 
 /* Media Queries */
 
-@media only screen and ( max-width: 479px ) {
-
-    .quote {
-        padding: 25% 5% 25%;
-    }
-
-}
-
 @media only screen and (max-width: 767px) {
 
     .quote {
         background-attachment: initial;
-        padding: 25% 10% 25%;
+        padding: 10% 0 20%;
     }
 
     blockquote p {

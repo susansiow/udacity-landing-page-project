@@ -25,6 +25,11 @@
 
     .landing-top {
         background-attachment: initial;
+        padding: 30% 5%;
+    }
+
+    .landing-top p {
+        padding: 0 30px;
     }
 
 }
