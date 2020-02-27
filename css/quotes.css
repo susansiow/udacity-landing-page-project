@@ -1,0 +1,85 @@
+/* Quote Sections */
+
+.quote {
+    text-align: center;
+    background: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10% 10% 15%;
+    transition: 0.8s;
+}
+
+.active-quote {
+    background-color: #a68d1f;
+}
+
+.quote-one, 
+.quote-three {
+    background-image: url("../images/quote-img-1.png");
+    background-position: right bottom;
+}
+
+.quote-two,
+.quote-four {
+    background-image: url("../images/quote-img-2.png");
+    background-position: left bottom;
+}
+
+.quote h2 {
+    color: #fff;
+}
+
+
+/* Blockquote */
+
+blockquote {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 8% 5%;
+}
+
+blockquote:before {
+    display: block;
+    content: "❝";
+    font-size: 1.75em;
+    color: #a68d1f;
+}
+
+blockquote p {
+    display: block;
+    font-size: 1.8em;
+    font-style: italic;
+    border-top: 1px solid #a68d1f;
+    border-bottom: 1px solid #a68d1f;
+    padding: 50px 30px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+blockquote .author {
+    font-size: 1.5em;
+    color: #a68d1f;
+}
+
+
+/* Media Queries */
+
+@media only screen and ( max-width: 479px ) {
+
+    .quote {
+        padding: 15% 0 30%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    blockquote p {
+        font-size: 1.3em;
+    }
+
+    blockquote .author {
+        font-size: 1.15em;
+    }
+
+}

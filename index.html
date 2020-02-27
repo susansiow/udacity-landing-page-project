@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>A Collection of Golden Quotes</title>
+        <meta name="Golden Quotes" content="A collection of inspiring and uplifting insights of all time." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="landing-container-wrapper">
+
+            <!-- Header -->
+
+            <header>
+
+                <!-- Logo Container -->
+
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+
+                <!-- Navigation -->
+
+                <nav class="topNav">
+
+                    <!-- Resonsive Menu Button -->
+
+                    <button class="menu-icon" name="menu" onclick="responsiveMenu()">
+                        <i class="material-icons">menu</i>
+                    </button>
+
+                    <!-- Menu Items (JS: Extration from Quote Section Dataset) -->
+
+                    <ul></ul>
+
+                </nav>
+
+            </header>
+
+            <!-- Landing Top  -->
+
+            <section class="landing-top">
+
+                    <h1>Golden Quotes</h1>
+                    <p>A collection of inspiring and uplifting insights of all time.</p>
+
+            </section>
+
+            <!-- Quote Sections --> 
+
+            <section id="education" class="quote quote-one" data-quote-cat="education">
+
+                <h2>Education</h2>
+
+                <blockquote>
+
+                    <p>Education is the key to unlock the golden door of freedom.</p>
+                    <div class="author">George Washington Carver</div>
+
+                </blockquote>
+
+            </section>
+
+            <section id="life" class="quote quote-two" data-quote-cat="life">
+
+                <h2>Life</h2>
+
+                <blockquote>
+
+                    <p>Life is really simple, but we insist on making it complicated.</p>
+                    <div class="author">Confucius</div>
+
+                </blockquote>
+
+            </section>
+
+            <section id="work" class="quote quote-three" data-quote-cat="work">
+
+                <h2>Work</h2>
+
+                <blockquote>
+
+                    <p>The best preparation for good work tomorrow is to do good work today.</p>
+                    <div class="author">Elbert Hubbard</div>
+
+                </blockquote>
+
+            </section>
+
+            <section id="spritual" class="quote quote-four" data-quote-cat="spritual">
+
+                <h2>Spiritual</h2>
+
+                <blockquote>
+
+                    <p>The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.</p>
+                    <div class="author">Winston Churchill</div>
+
+                </blockquote>
+
+            </section>
+
+            <!-- Footer -->
+
+            <footer>
+
+                <div class="footer-wrapper">
+
+                    <div class="footer-copyright">
+
+                        <p>Ⓒ 2020 
+                            <a href="index.html">Golden Quotes</a>
+                        <p>
+
+                    </div>
+
+                    <div class="developer-info">
+
+                        <p>Web Developed by <a href="https://www.susansiow.com" rel="noopener" target="_blank">Susan Siow</a></p>
+
+                    </div>
+
+                </div>
+
+                <button class="return-top" name="return-top" onclick="returnTop()">
+
+                    <i class="material-icons">arrow_drop_up</i>
+
+                </button>
+
+            </footer>
+
+        </div>
+
+        <!-- Link to app.js File -->
+
+        <script src="js/app.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+/* Main Grid */
+
+.landing-container-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px auto);
+    grid-template-areas:
+        "hd hd hd"
+        "lt lt lt"
+        "q1 q1 q1"
+        "q2 q2 q2"
+        "q3 q3 q3"
+        "q4 q4 q4"
+        "ft ft ft";
+}
+
+header {
+    grid-area: hd;
+}
+
+.landing-top {
+    grid-area: lt;
+}
+
+.quote-one {
+    grid-area: q1;
+}
+
+.quote-two {
+    grid-area: q2;
+}
+
+.quote-three {
+    grid-area: q3;
+}
+
+.quote-four {
+    grid-area: q4;
+}
+
+footer {
+    grid-area: ft;
+}

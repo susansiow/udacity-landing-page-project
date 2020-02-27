@@ -1,0 +1,19 @@
+/* Landing Top */
+
+.landing-top {
+    text-align: center;
+    background-image: 
+    linear-gradient(rgba(166,141,31,0.3), rgba(0,0,0,0.6)),
+    url("../images/top-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 13% 5%;
+}
+
+.landing-top h1 {
+    color: #fff;
+}
+
+.landing-top p {
+    color: #ddd;
+}
