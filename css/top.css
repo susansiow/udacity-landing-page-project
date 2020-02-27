@@ -17,3 +17,14 @@
 .landing-top p {
     color: #ddd;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+
+    .landing-top {
+        background-attachment: initial;
+    }
+
+}

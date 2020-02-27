@@ -67,12 +67,17 @@ blockquote .author {
 @media only screen and ( max-width: 479px ) {
 
     .quote {
-        padding: 15% 0 30%;
+        padding: 25% 5% 25%;
     }
 
 }
 
 @media only screen and (max-width: 767px) {
+
+    .quote {
+        background-attachment: initial;
+        padding: 25% 10% 25%;
+    }
 
     blockquote p {
         font-size: 1.3em;
